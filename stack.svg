@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+<title id="title">Technology stack orbit</title><desc id="desc">HTML, CSS, JavaScript, Three.js, C++, Java and Blender arranged around a crimson orbit.</desc>
+
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#181515"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient>
+  <linearGradient id="blood" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4b080e"/><stop offset=".55" stop-color="#9B111E"/><stop offset="1" stop-color="#42070c"/></linearGradient>
+  <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2efea" stop-opacity=".8"/><stop offset="1" stop-color="#88817c" stop-opacity=".1"/></linearGradient>
+  <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V9" stroke="#c8c0ba" stroke-opacity=".11" stroke-width="1"/><path d="M4 0V9" stroke="#9B111E" stroke-opacity=".13" stroke-width=".7"/></pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".8" fill="#b9b0ab" opacity=".24"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+  <clipPath id="heroClip"><rect x="0" y="0" width="1200" height="520" rx="18"/></clipPath>
+</defs>
+<style>
+  :root { color-scheme: dark; }
+  text { font-family: Arial, Helvetica, sans-serif; }
+  .mono { font-family: "Courier New", Courier, monospace; }
+  .headline { font-family: Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 1.4px; }
+  .muted { fill: #929292; }
+  .white { fill: #f4f1ec; }
+  .crimson { fill: #9B111E; }
+  .hairline { stroke: #3a3535; stroke-width: 1; }
+  .inkline { stroke: #a9a09b; stroke-opacity: .26; fill: none; }
+  .scan { animation: scan 6s linear infinite; }
+  .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .float { animation: float 4.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes scan { from { transform: translateY(-30px); opacity: 0; } 15% {opacity:.75} to { transform: translateY(430px); opacity: 0; } }
+  @keyframes pulse { 0%,100% { opacity:.36; transform:scale(.96); } 50% { opacity:1; transform:scale(1.04); } }
+  @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-9px); } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation:none !important; transition:none !important; } animate, animateTransform { display:none !important; } }
+</style>
+<style>
+  .orbit { transform-origin:550px 238px; animation: orbit 24s linear infinite; }
+  @keyframes orbit { to { transform:rotate(360deg); } }
+  .orbit-label { transform-origin:center; }
+</style>
+<rect width="1100" height="430" rx="18" fill="#080808"/>
+<rect width="1100" height="430" rx="18" fill="url(#hatch)" opacity=".35"/>
+<text x="38" y="50" class="mono crimson" font-size="13" letter-spacing="3">CHAPTER 03 / TOOL RITUALS</text>
+<text x="38" y="94" class="headline white" font-size="34">THE STACK.</text>
+<text x="40" y="120" class="mono muted" font-size="12" letter-spacing="1">TOOLS ARE INSTRUMENTS. THE IDEA SETS THE DIRECTION.</text>
+<g stroke="#504044" fill="none"><ellipse cx="550" cy="246" rx="360" ry="120" stroke-width="1.2"/><ellipse cx="550" cy="246" rx="258" ry="86" stroke-dasharray="3 8"/><ellipse cx="550" cy="246" rx="168" ry="56" stroke="#9B111E" stroke-opacity=".5"/></g>
+<g class="orbit" fill="none" stroke="#9B111E" stroke-width="1.5"><path d="M190 246 A360 120 0 0 1 910 246" stroke-dasharray="5 12"/><circle cx="190" cy="246" r="5" fill="#9B111E"/><circle cx="910" cy="246" r="5" fill="#9B111E"/></g>
+<circle cx="550" cy="246" r="79" fill="#101010" stroke="#6f2028" stroke-width="1.5"/>
+<circle cx="550" cy="246" r="68" fill="url(#hatch)"><animate attributeName="r" values="68;73;68" dur="4s" repeatCount="indefinite"/></circle><text x="550" y="236" text-anchor="middle" class="headline white" font-size="23">SA</text><text x="550" y="260" text-anchor="middle" class="mono crimson" font-size="9" letter-spacing="2">CREATIVE CORE</text>
+<g class="mono" text-anchor="middle">
+  <g transform="translate(250 162)"><rect x="-56" y="-22" width="112" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">HTML</text></g>
+  <g transform="translate(410 118)"><rect x="-50" y="-22" width="100" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">CSS</text></g>
+  <g transform="translate(690 118)"><rect x="-65" y="-22" width="130" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">JavaScript</text></g>
+  <g transform="translate(850 162)"><rect x="-65" y="-22" width="130" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">Three.js</text></g>
+  <g transform="translate(850 330)"><rect x="-48" y="-22" width="96" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">C++</text></g>
+  <g transform="translate(550 366)"><rect x="-48" y="-22" width="96" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">Java</text></g>
+  <g transform="translate(250 330)"><rect x="-58" y="-22" width="116" height="44" rx="9" fill="#111" stroke="#514144"/><text y="6" class="white" font-size="15">Blender</text></g>
+</g>
+<g fill="#9B111E" class="pulse"><circle cx="250" cy="162" r="3"/><circle cx="410" cy="118" r="3"/><circle cx="690" cy="118" r="3"/><circle cx="850" cy="162" r="3"/><circle cx="850" cy="330" r="3"/><circle cx="550" cy="366" r="3"/><circle cx="250" cy="330" r="3"/></g>
+<path class="scan" d="M70 146H1030" stroke="#e6d7d5" stroke-opacity=".4"/>
+<text x="550" y="414" text-anchor="middle" class="mono muted" font-size="10" letter-spacing="2">LEARN • EXPERIMENT • CONNECT • CREATE</text>
+</svg>

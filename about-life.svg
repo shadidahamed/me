@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="390" viewBox="0 0 1100 390" role="img" aria-labelledby="title desc">
+<title id="title">About the life behind the code</title><desc id="desc">Five creative interests: digital art, game development, drawing, storytelling and 3D design.</desc>
+
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#181515"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient>
+  <linearGradient id="blood" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4b080e"/><stop offset=".55" stop-color="#9B111E"/><stop offset="1" stop-color="#42070c"/></linearGradient>
+  <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2efea" stop-opacity=".8"/><stop offset="1" stop-color="#88817c" stop-opacity=".1"/></linearGradient>
+  <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V9" stroke="#c8c0ba" stroke-opacity=".11" stroke-width="1"/><path d="M4 0V9" stroke="#9B111E" stroke-opacity=".13" stroke-width=".7"/></pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r=".8" fill="#b9b0ab" opacity=".24"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+  <clipPath id="heroClip"><rect x="0" y="0" width="1200" height="520" rx="18"/></clipPath>
+</defs>
+<style>
+  :root { color-scheme: dark; }
+  text { font-family: Arial, Helvetica, sans-serif; }
+  .mono { font-family: "Courier New", Courier, monospace; }
+  .headline { font-family: Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 1.4px; }
+  .muted { fill: #929292; }
+  .white { fill: #f4f1ec; }
+  .crimson { fill: #9B111E; }
+  .hairline { stroke: #3a3535; stroke-width: 1; }
+  .inkline { stroke: #a9a09b; stroke-opacity: .26; fill: none; }
+  .scan { animation: scan 6s linear infinite; }
+  .pulse { animation: pulse 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .float { animation: float 4.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes scan { from { transform: translateY(-30px); opacity: 0; } 15% {opacity:.75} to { transform: translateY(430px); opacity: 0; } }
+  @keyframes pulse { 0%,100% { opacity:.36; transform:scale(.96); } 50% { opacity:1; transform:scale(1.04); } }
+  @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-9px); } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation:none !important; transition:none !important; } animate, animateTransform { display:none !important; } }
+</style>
+<rect width="1100" height="390" rx="18" fill="#080808"/>
+<rect x="1" y="1" width="1098" height="388" rx="17" fill="url(#hatch)" opacity=".42"/>
+<text x="36" y="50" class="mono crimson" font-size="13" letter-spacing="3">CHAPTER 02 / OFF-SCREEN</text>
+<text x="36" y="99" class="headline white" font-size="34">A LIFE IN MAKING.</text>
+<text x="38" y="126" class="mono muted" font-size="12" letter-spacing="1.4">CURIOSITY, COMPOSITION &amp; WORLDS THAT DO NOT EXIST YET.</text>
+<path d="M38 148H1060" stroke="#4a3b3b"/>
+<g transform="translate(36 178)">
+  <g>
+    <rect width="194" height="168" rx="10" fill="#111111" stroke="#332b2b"/><rect width="194" height="168" rx="10" fill="url(#dots)" opacity=".6"/>
+    <path d="M42 84C55 50 100 38 140 55C129 85 84 111 42 84Z" fill="none" stroke="#ddd5ce" stroke-width="2"/><path d="M42 84L140 55M62 92L122 63M84 98L132 73" stroke="#9B111E" stroke-width="1.5"/>
+    <text x="18" y="135" class="headline white" font-size="14">DIGITAL ART</text><text x="18" y="154" class="mono muted" font-size="9">PIXELS / COMPOSITION</text>
+  </g>
+  <g transform="translate(208 0)">
+    <rect width="194" height="168" rx="10" fill="#111111" stroke="#332b2b"/><rect width="194" height="168" rx="10" fill="url(#dots)" opacity=".6"/>
+    <path d="M48 45H146V103H48Z" fill="none" stroke="#ddd5ce" stroke-width="2"/><path d="M58 92L85 69L105 83L136 56" fill="none" stroke="#9B111E" stroke-width="2"/><path d="M97 105L97 116M76 116H118" stroke="#ddd5ce" stroke-width="2"/>
+    <text x="18" y="135" class="headline white" font-size="14">GAME DEV</text><text x="18" y="154" class="mono muted" font-size="9">PLAY / SYSTEMS / WORLDS</text>
+  </g>
+  <g transform="translate(416 0)">
+    <rect width="194" height="168" rx="10" fill="#111111" stroke="#332b2b"/><rect width="194" height="168" rx="10" fill="url(#dots)" opacity=".6"/>
+    <path d="M52 104L78 48L121 55L145 106L105 117Z" fill="none" stroke="#ddd5ce" stroke-width="2"/><path d="M78 48L105 117M121 55L52 104M145 106L78 48" stroke="#9B111E" stroke-width="1.3"/>
+    <text x="18" y="135" class="headline white" font-size="14">DRAWING</text><text x="18" y="154" class="mono muted" font-size="9">LINES / LIGHT / SHADOW</text>
+  </g>
+  <g transform="translate(624 0)">
+    <rect width="194" height="168" rx="10" fill="#111111" stroke="#332b2b"/><rect width="194" height="168" rx="10" fill="url(#dots)" opacity=".6"/>
+    <path d="M52 51H138V112H52Z" fill="none" stroke="#ddd5ce" stroke-width="2"/><path d="M66 67H122M66 80H110M66 93H128" stroke="#9B111E" stroke-width="2"/><path d="M124 44L145 44L145 65" stroke="#ddd5ce" fill="none"/>
+    <text x="18" y="135" class="headline white" font-size="14">STORYTELLING</text><text x="18" y="154" class="mono muted" font-size="9">CHARACTERS / NARRATIVE</text>
+  </g>
+  <g transform="translate(832 0)">
+    <rect width="194" height="168" rx="10" fill="#111111" stroke="#332b2b"/><rect width="194" height="168" rx="10" fill="url(#dots)" opacity=".6"/>
+    <path d="M98 38L143 63V101L98 126L53 101V63Z" fill="none" stroke="#ddd5ce" stroke-width="2"/><path d="M98 38V78M53 63L98 88L143 63M98 88V126" stroke="#9B111E" stroke-width="2"/>
+    <text x="18" y="135" class="headline white" font-size="14">3D DESIGN</text><text x="18" y="154" class="mono muted" font-size="9">FORM / SPACE / DEPTH</text>
+  </g>
+</g>
+<path class="scan" d="M38 170H1060" stroke="#9B111E" stroke-width="1.2"><animateTransform attributeName="transform" type="translate" values="0 0;0 185;0 0" dur="6s" repeatCount="indefinite"/></path>
+</svg>

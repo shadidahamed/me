@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-labelledby="t d">
+<title id="t">Contribution city placeholder</title><desc id="d">Run the included GitHub Actions workflow to generate the live 3D contribution calendar.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171313"/><stop offset="1" stop-color="#080808"/></linearGradient><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V8" stroke="#9B111E" stroke-opacity=".22"/></pattern></defs>
+<rect width="1100" height="320" rx="16" fill="url(#g)" stroke="#6a3035"/><rect width="1100" height="320" rx="16" fill="url(#h)"/>
+<g fill="none" stroke="#9B111E" stroke-opacity=".55"><path d="M95 230L250 140L405 230L560 140L715 230L870 140L1025 230"/><path d="M95 230V250L250 160V140M250 160V180L405 270V230M405 270V290L560 200V140M560 200V220L715 310V230M715 310V320"/></g>
+<g fill="#26171a" stroke="#8f3540" stroke-opacity=".65"><path d="M95 230L250 140L405 230L250 320Z"/><path d="M250 140L405 230L560 140L405 50Z"/><path d="M405 230L560 140L715 230L560 320Z"/><path d="M560 140L715 230L870 140L715 50Z"/><path d="M715 230L870 140L1025 230L870 320Z"/></g>
+<rect x="170" y="42" width="760" height="236" rx="12" fill="#080808" fill-opacity=".88" stroke="#5a2b30"/>
+<text x="550" y="112" text-anchor="middle" fill="#9B111E" font-family="monospace" font-size="14" letter-spacing="4">CONTRIBUTION CITY / BUILD PENDING</text>
+<text x="550" y="166" text-anchor="middle" fill="#f4f1ec" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="28">RUN THE PROFILE WORKFLOW</text>
+<text x="550" y="202" text-anchor="middle" fill="#aaa19c" font-family="monospace" font-size="13">A LIVE 3D CONTRIBUTION CALENDAR WILL APPEAR HERE</text>
+<text x="550" y="246" text-anchor="middle" fill="#9B111E" font-family="monospace" font-size="11" letter-spacing="2">GITHUB ACTIONS  /  profile-3d.yml</text>
+</svg>
